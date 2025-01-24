@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Logo or Brand Name */}
           <div className="mb-4 md:mb-0">
             <Link href="/" className="text-2xl font-bold text-white">
-              Blog Viewer
+              Blog Management
             </Link>
           </div>
 
@@ -85,7 +85,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-gray-700 mt-6 pt-6 text-center">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} Blog Viewer. All rights reserved.
+            &copy; {new Date().getFullYear()} Blog Management. All rights reserved.
           </p>
         </div>
       </div>

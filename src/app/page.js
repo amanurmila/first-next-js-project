@@ -84,7 +84,7 @@ export default function Home() {
               <p className="text-gray-600 line-clamp-3 mb-4">{post.body}</p>
               <div className="mt-auto w-full">
                 <Link href={`/blog/${post.id}`}>
-                  <button className="px-4 py-2 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition w-full">
+                  <button className="px-4 py-2 bg-purple-600 text-white font-medium rounded hover:bg-purple-700 transition w-full">
                     View Details
                   </button>
                 </Link>

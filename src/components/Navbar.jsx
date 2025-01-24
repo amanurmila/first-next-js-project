@@ -15,8 +15,8 @@ export default async function Navbar() {
     <header className="bg-gray-200  p-4">
       <nav className="flex justify-between items-center max-w-6xl mx-auto">
         <div className="flex space-x-4">
-          <Link href="/" className="hover:text-red-400 font-bold text-xl">
-            Blog Viewer
+          <Link href="/" className="hover:text-red-400 text-red-600 font-bold text-xl">
+            Blog Management
           </Link>
         </div>
         <div className="flex gap-5">
